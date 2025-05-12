@@ -71,10 +71,7 @@ ecommerce-webapp/
 │   └── server.js
 ├── public/           # Static assets
 └── README.md
-
-
 Just run this in any Python environment and it will create a `README.md` file in the same directory. Want help deploying your project to a live server (like Vercel, Netlify, or Render)? ​:contentReference[oaicite:0]{index=0}​
-
 
 from pathlib import Path
 
