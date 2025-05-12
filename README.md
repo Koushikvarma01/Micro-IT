@@ -46,3 +46,28 @@ Welcome to the **Modern E-Commerce Website** — a full-featured, beginner-frien
 # Clone this repository
 git clone https://github.com/koushikvarma01/ecommerce-webapp.git
 cd ecommerce-webapp
+cd backend
+npm install
+# OR (for Python backend)
+# pip install -r requirements.txt
+cd frontend
+npm install
+npm start
+PORT=5000
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+STRIPE_SECRET_KEY=your_stripe_key
+ecommerce-webapp/
+├── frontend/         # React/Vue app
+│   ├── components/
+│   ├── pages/
+│   └── App.js
+├── backend/          # Node.js/Django backend
+│   ├── models/
+│   ├── routes/
+│   └── server.js
+├── public/           # Static assets
+└── README.md
+
+Would you like me to generate this as a `.md` file you can download directly?
+
