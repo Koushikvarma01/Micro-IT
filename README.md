@@ -1,3 +1,6 @@
+from pathlib import Path
+
+readme_content = """
 # 🛍️ Modern E-Commerce Web App
 
 Welcome to the **Modern E-Commerce Website** — a full-featured, beginner-friendly online shopping platform where users can explore products, manage their cart, and place secure orders, all through a responsive and seamless UI.
@@ -69,5 +72,5 @@ ecommerce-webapp/
 ├── public/           # Static assets
 └── README.md
 
-Would you like me to generate this as a `.md` file you can download directly?
 
+Just run this in any Python environment and it will create a `README.md` file in the same directory. Want help deploying your project to a live server (like Vercel, Netlify, or Render)? ​:contentReference[oaicite:0]{index=0}​
